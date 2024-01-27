@@ -7,12 +7,12 @@ const img = document.querySelector("#profile img")
 
     if (html.classList.contains("light")) {
 
-        img.setAttribute("src",'/assets/avatar-light.png') 
+        img.setAttribute("src",'./assets/avatar-light.png') 
         img.setAttribute('alt','foto de oculos escuro fundo claro')
       
 
 }else{
-    img.setAttribute("src",'/assets/Avatar png.png') 
+    img.setAttribute("src",'./assets/Avatar png.png') 
     img.setAttribute('alt','foto sorrindo fundo escuro')
 }
 
